@@ -17,7 +17,6 @@ with tf.Graph().as_default() as graph:
     x = tf.placeholder(shape=[M, 1], dtype=tf.float32, name="x")
     f = func.f(x)
     g = func.g(f)
-    tf.nn.fused_batch_norm()
 
     w = tf.ones([4], name="w")
     v = tf.ones([M, 1], name="v")
