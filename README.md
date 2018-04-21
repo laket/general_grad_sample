@@ -1,0 +1,1 @@
+This repostitory is sample code for [my Qiita article](https://qiita.com/jack_ama/items/3d843ce44dadf23c75da).
